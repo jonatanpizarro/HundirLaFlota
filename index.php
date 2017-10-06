@@ -2,11 +2,10 @@
 <style type="text/css">
 	#fil {
 		display: block;
+		
 	}
 
-	#a {
-		margin-left: 40px;
-	}
+	
 
 
 </style>
@@ -25,13 +24,13 @@
 
 			<div id="fil">
 		
-				<label for="fila">Filas              </label>
+				<label for="fila">Columnas              </label>
 				
 				<input type="number" name="fila" id="a" >
 			</div>
 
 			<div id="col">
-				<label for="colum">Columnas  </label>
+				<label for="colum">Filas  </label>
 				
 				<input type="number" name="colum"/>
 

@@ -16,15 +16,14 @@
 
 			$color = true;
 
-			for ($i=0;$i<$columna;$i++){
-				echo $i;
-			}
+			
 				for($f=0;$f<$columna;$f++){
+					echo "$i";
 					echo "<tr>\n";
 
 					for ($i=0; $i <$filas ; $i++) {
 						if ($color){
-							echo "<td style=background-color:#F5D0A9;></td>\n";
+							echo "<td style=background-color:#0000FF;></td>\n";
 							$color=false;
 
 						}else{
