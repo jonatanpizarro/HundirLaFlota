@@ -21,23 +21,23 @@
 		<h2>Formulario batalla naval</h2>
 
 		
-		<form action="tabla.php" method="GET">
+		<form action="tabla.php" method="POST">
 
 			<div id="fil">
 		
-				<label for="filas">Filas              </label>
+				<label for="fila">Filas              </label>
 				
-				<input name="filas" id="a" >
+				<input type="number" name="fila" id="a" >
 			</div>
 
 			<div id="col">
-				<label for="columnas">Columnas  </label>
+				<label for="colum">Columnas  </label>
 				
-				<input name="columnas"/>
+				<input type="number" name="colum"/>
 
 			</div>
 
-			<button type="submit">Crear tabla</button>
+			<input type="submit" value="Enviar"/>
 				
 
 		</form>
